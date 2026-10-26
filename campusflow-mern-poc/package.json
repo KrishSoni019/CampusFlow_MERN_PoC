@@ -1,0 +1,14 @@
+{
+  "name": "campusflow-mern-poc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MERN-stack Proof of Concept: a student assignment and task manager",
+  "scripts": {
+    "install:all": "npm install --prefix apps/backend && npm install --prefix apps/frontend",
+    "dev:api": "npm run dev --prefix apps/backend",
+    "dev:web": "npm run dev --prefix apps/frontend",
+    "test:api": "npm test --prefix apps/backend",
+    "build:web": "npm run build --prefix apps/frontend",
+    "seed": "npm run seed --prefix apps/backend"
+  }
+}
